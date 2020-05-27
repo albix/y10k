@@ -14,7 +14,7 @@ $(APP): main.go io.go repo.go yumfile.go
 	$(GO) build -x -o $(APP)
 
 get-deps:
-	$(GO) get -u github.com/codegangsta/cli
+	$(GO) get -u github.com/urfave/cli
 
 tar: $(APP) README.md
 	mkdir $(PACKAGE)

@@ -3,7 +3,7 @@ package main
 import (
 	"errors"
 	"fmt"
-	"github.com/codegangsta/cli"
+  "github.com/urfave/cli"
 	"os"
 	"os/signal"
 )
